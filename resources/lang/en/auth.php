@@ -1,0 +1,50 @@
+<?php
+return [
+    'welcomeBack' => 'Welcome Back!',
+    'signInMessage' => 'Please sign in to your account',
+    'usernameEmail' => 'Username/Email',
+    'haveNoAccount' => 'Have no account?',
+    'register' => 'Register',
+    'login' => 'Login',
+    'logout' => 'Logout',
+    'password' => 'Password',
+    'confirmPassword' => 'Confirm Password',
+    'forgotPassword' => 'Forgot Password?',
+    'haveAnAccount' => 'Have an account?',
+    'username' => 'Username',
+    'email' => 'Email',
+    'phone' => 'Phone',
+    'socialiteLoginTitle' => 'or continue with',
+    'sendPassResetLink' => 'Send Reset Password Link',
+    'resetPassword' => 'Reset Password',
+    'enterNewPassword' => 'Enter your new password',
+    'maintenanceMode' => 'Maintenance Mode',
+    'maintenanceModeMessage' => 'We\'re currently performing scheduled maintenance. Please check back shortly.',
+    'verifyEmail' => 'Verify Email',
+    'enter4DigitCode' => 'Enter the 4-digit code sent to your email or phone.',
+    'verificationCode' => 'Verification Code',
+    'resendCode' => 'Resend Code',
+    'authenticateLogin' => 'Authenticate Login',
+    'enterOtp' => 'Enter the OTP sent to your email or phone',
+
+
+    'passwordRules' => [
+        'passwordRules' => 'Password Rules',
+        'minChar' => 'Minimum 8 characters',
+        'lowerCase' => 'At least one lowercase letter',
+        'upperCase' => 'At least one uppercase letter',
+        'symbolRule' => 'At least one special character/symbol',
+        'numberRule' => 'At least one number',
+        'samePass' => 'Passwords must be the same',
+    ],
+
+    'commonValidationRules' => [
+        'usernameRequired' => 'The username is required.',
+        'usernameTaken' => 'This username has already been used.',
+        'usernameNoSpace' => 'The username cannot contain spaces.',
+        'passwordRequired' => 'The password is required.',
+        'passwordMin' => 'The password must be at least 8 characters long.',
+        'passwordMustContain' => 'The password must include an uppercase letter, lowercase letter, number, and special character.',
+        'passwordMatchError' => 'The confirmation password does not match.',
+    ]
+];
